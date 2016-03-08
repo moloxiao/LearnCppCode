@@ -25,6 +25,8 @@
 /* Begin PBXFileReference section */
 		E6E5E6131C8EBEEF00397BA1 /* LearnCppCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LearnCppCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6E5E6161C8EBEEF00397BA1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E6E5E62B1C8ECAA800397BA1 /* MsgCreater.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MsgCreater.h; sourceTree = "<group>"; };
+		E6E5E62C1C8ECAA800397BA1 /* MsgObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MsgObserver.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +59,27 @@
 		E6E5E6151C8EBEEF00397BA1 /* LearnCppCode */ = {
 			isa = PBXGroup;
 			children = (
+				E6E5E6281C8ECAA800397BA1 /* DesignPattern */,
 				E6E5E6161C8EBEEF00397BA1 /* main.cpp */,
 			);
 			path = LearnCppCode;
+			sourceTree = "<group>";
+		};
+		E6E5E6281C8ECAA800397BA1 /* DesignPattern */ = {
+			isa = PBXGroup;
+			children = (
+				E6E5E6291C8ECAA800397BA1 /* Observer */,
+			);
+			path = DesignPattern;
+			sourceTree = "<group>";
+		};
+		E6E5E6291C8ECAA800397BA1 /* Observer */ = {
+			isa = PBXGroup;
+			children = (
+				E6E5E62B1C8ECAA800397BA1 /* MsgCreater.h */,
+				E6E5E62C1C8ECAA800397BA1 /* MsgObserver.h */,
+			);
+			path = Observer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

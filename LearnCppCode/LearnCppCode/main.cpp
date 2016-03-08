@@ -7,9 +7,17 @@
 //
 
 #include <iostream>
+#include "DesignPattern/Observer/MsgObserver.h"
+#include "DesignPattern/Observer/MsgCreater.h"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+    MsgCreater *mc = new MsgCreater();
+    MsgObserver *muo = new MsgUserOne();
+    mc->add_observer(muo);
+    mc->notify_observer();
 }
+
+
+
+
+
